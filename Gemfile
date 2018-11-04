@@ -12,6 +12,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'loofah', '>= 2.2.3'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -19,6 +21,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'codecov'
   gem 'minitest-reporters'
+  gem 'rails-controller-testing'
 end
 
 group :development do
