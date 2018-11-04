@@ -18,6 +18,7 @@ group :development, :test do
   gem 'travis'
   gem 'simplecov'
   gem 'codecov'
+  gem 'minitest-reporters'
 end
 
 group :development do
