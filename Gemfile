@@ -15,6 +15,7 @@ gem 'loofah', '>= 2.2.3'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 gem 'bcrypt'
+gem "rack", ">= 2.0.6"
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
