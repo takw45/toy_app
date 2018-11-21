@@ -3,6 +3,7 @@
 user_one:
   name: MyString
   email: user_one@test.com
+  password_digest: <%= ActiveSupport::TestCase.digest('password') %>
 
 user_two:
   name: MyString
